@@ -17,7 +17,7 @@ defmodule DynamicFormWeb.Router do
   scope "/", DynamicFormWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", Live
   end
 
   # Other scopes may use custom stacks.
